@@ -1,0 +1,14 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #27AE60;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+}
+
+.content-wrapper {
+    align-items: end;
+}
