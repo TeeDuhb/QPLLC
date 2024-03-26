@@ -1,14 +1,19 @@
 /* Common styles */
 body {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #27AE60;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F618D;
+    background-color: orangered;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', serif;
+    font-family: 'Montserrat', serif;
 }
 
 .content-wrapper {
     align-items: end;
+}
+
+.content-wrapper > p {
+    padding: 10px 25px;
 }
