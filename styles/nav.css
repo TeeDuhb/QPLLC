@@ -58,6 +58,7 @@
 .navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
+    border-radius: 27%;
 }
 
 .links-wrapper {
