@@ -80,7 +80,7 @@
 }
 
 .links-wrapper > .nav-link a:hover {
-    color: #1F618D  ;
+    color: orangered  ;
     letter-spacing: 2px;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .navigation-wrapper > .right-column > .address-wrapper a:hover {
-    color: #1F618D  ;
+    color: orangered  ;
 }
 
 .navigation-wrapper > .right-column > .contact-icon {
@@ -117,5 +117,5 @@
 }
 
 .navigation-wrapper > .right-column > .contact-icon a:hover {
-color: #1F618D  ;
+color: orangered  ;
 }

@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
     margin-top: -4px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .footer-wrapper > .social-wrapper a:hover {
-    color: #FFD300 ;
+    color: #1F618D ;
 }
 
 .footer-wrapper > .copyright {
