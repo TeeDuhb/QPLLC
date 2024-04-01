@@ -1,7 +1,7 @@
 /* Common nav styles */
 .navigation-wrapper {
     height: 190px;
-    background-color: #1F618D ;
+    background-image: radial-gradient(orangered, #FFD300 , #27AE60);
     color: #27AE60;
     /* flexbox container */
     display: flex;
@@ -74,7 +74,7 @@
 
 .links-wrapper > .nav-link a {
     font-family: "Arial", sans-serif;
-    color: #27AE60;
+    color: black;
     text-decoration: none;
     transition: 0.5s;
 }
