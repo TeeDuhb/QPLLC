@@ -30,15 +30,16 @@
 
 /* Features section styles */
 .features-section {
-    height: 600px;
-    background-image: url(../images/Mush/mini/APE.jpg);
+    height: 375px;
+    background-image: url(../images/Homepage/mush-bg.jpg);
     background-color: #1F618D;
     border-top: 10px solid white;
     color: #11122b;
     display: flex;
     justify-content: center;
     align-items: last baseline;
-    font-family: "Arial", sans-serif;
+    font-family: "Trade Winds", sans-serif;
+    font-weight: 800;
     box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 

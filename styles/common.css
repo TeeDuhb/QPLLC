@@ -1,13 +1,17 @@
 /* Common styles */
 body {
     margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Trade Winds', sans-serif;
     color: #1F618D;
     background-image: radial-gradient(orangered, #FFD300 , #27AE60);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', serif;
+h1 {
+    font-family: 'Rubik Glitch Pop', serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Workbench', serif;
 }
 
 .content-wrapper {
