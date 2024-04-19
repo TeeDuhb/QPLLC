@@ -3,19 +3,20 @@
 <head>
     <meta charset="uft-8" />
     <title>Services</title>
+    <!--ExtraFontStuff-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&family=Trade+Winds&family=Workbench&display=swap" rel="stylesheet">
+    <!--FavIcon-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+    <!--Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
      crossorigin="anonymous">
-
+    <!--StyleSheets-->
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/nav.css">    
     <link rel="stylesheet" href="styles/footer.css">
@@ -23,8 +24,17 @@
     <link rel="stylesheet" href="styles/square-grid.css">
     <link rel="stylesheet" href="styles/helpers.css">
     <link rel="stylesheet" href="styles/media-queries.css">
-
+    <link rel="PopUup" href="styles/Script.JS">
+    <!--JAVASCRIPT-->
+    <script type="text/javascript">
+      $(window).load(function(){ // on window finish load
+          $('#popup').css("display", "none"); // turn off the popup
+      });
+    </script>
 </head>
+<div class="popup" onclick="myFunction()"><!--<p>Click me!</p>-->
+<span class="popuptext" id="myPopup">Popup text...</span>
+</div>
 <body>
     <div class="skewed-header">
         <div class="header-bg" style="background-image: url('images/Headers/Bearshead-removebg-preview.png');"></div>
@@ -52,10 +62,77 @@
         </div>
     </div>
     <div class="page-container">
-      <div class="content-wrappery">
+      <h1 align="center">Love is always first</h1>
+      <h2 align="center"><b>Discover quality products for your creative lifestyle</b></h2> <br>
+
+      <div class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="square-text-wrapper">
+              <h1>Music</h1>
+  
+              <p>Immerse yourself in the world of rhythm and melody with our curated selection of music. 
+                We do production, lyrics, features, instruments, and accessories. 
+                Whether you're a seasoned musician or just starting your musical journey, 
+                we have everything you need to express yourself through music.</p>
+            </div>
+            <div class="img-wrapper">
+              <img src="images/squares/Tar.jpg" alt="music">
+            </div>          
+          </div>
+  
+      <div class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="img-wrapper">
+              <img src="images/squares/Bearshead.jpg" alt="health">
+            </div>          
+            <div class="square-text-wrapper">
+              <h1>Health</h1>
+  
+              <p>Prioritize your well-being with our range of health products 
+                designed to support your physical and mental wellness. 
+                From tonics to to salves to dietary supplements, 
+                we offer solutions to help you lead a balanced and healthy lifestyle. 
+                Discover the tools you need to nurture your body and mind.</p>
+            </div>
+          </div>
+  
+          <div class="square">
+            <div class="square-text-wrapper">
+                <h1>Tantra</h1>
+    
+                <p>Experience the transformative power of Tantra 
+                  with our collection of resources and products dedicated to spiritual growth and intimacy. 
+                  Explore ancient wisdom and modern practices to deepen your connection with yourself 
+                  and your partner. Embrace Tantra as a path to greater love, consciousness, and fulfillment.</p>
+  
+            </div>
+            <div class="img-wrapper">
+              <img src="images/squares/Tantra.png" alt="tantra">
+            </div>          
+          </div>
+  
+          <div class="square">
+            <div class="img-wrapper">
+              <img src="images/squares/Consult.jpg" alt="fun">
+            </div>          
+            <div class="square-text-wrapper">
+                <h1>General Consultations</h1>
+    <p>Gain valuable insights and guidance with our general consulting services. 
+      Our team of experts is here to help you navigate challenges, 
+      seize opportunities, and achieve your goals. 
+      Whether you're a business owner, entrepreneur, or individual seeking personal development, 
+      our consulting services provide tailored solutions to drive success and growth.</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      
+      <div class="content-wrapper">
         <br>
-        <h1 align="center">Love is always first</h1>
-         <h2 align="center"><b>Discover top-quality products for every aspect of your life</b></h2> <br>
+         <h2 align="center"><b>Some words from our AI</b></h2> <br>
           <p align="center">At Quality Products LLC, 
           we're dedicated to delivering interconnected solutions that exceed expectations. 
           </p>
@@ -89,101 +166,51 @@
                   </p>
         <p align="center"> Thank you for choosing Quality Products LLC. We look forward to serving you!</p>
       <br>      </div>
+      </div>
     </div>
 
-    <div class="spacer60">
-    </div>
- 
     <div class="squares-wrapper">
       <div class="squares">
         <div class="square">
           <div class="square-text-wrapper">
-            <h1>Music</h1>
+            <h1>Cordycepts Extract</h1>
 
-            <p>Immerse yourself in the world of rhythm and melody with our curated selection of music. 
-              We do production, lyrics, features, instruments, and accessories. 
-              Whether you're a seasoned musician or just starting your musical journey, 
-              we have everything you need to express yourself through music.</p>
+            <p>Cordyceps extract is a dietary supplement that comes from a fungus and has been used in traditional Chinese medicine for centuries.
+              It's available here as a powder; recommended serving 50 mgs. 
+              Cordyceps is known as an adaptogen, which means it may help your body adjust to stress. Some people use it to: 
+              Boost energy and strength, Improve immunity, Enhance kidney function, Improve sexual dysfunction, and Treat cough and fatigue.</p>
           </div>
           <div class="img-wrapper">
-            <img src="images/squares/Tar.jpg" alt="music">
+            <img src="Mush/CordyExtract.jpg" alt="music">
           </div>          
         </div>
+      </div>
+    </div>
 
     <div class="squares-wrapper">
       <div class="squares">
         <div class="square">
           <div class="img-wrapper">
-            <img src="images/squares/Bearshead.jpg" alt="health">
+            <img src="Mush/LMExtract.jpg" alt="music">
           </div>          
           <div class="square-text-wrapper">
-            <h1>Health</h1>
+            <h1>Lions Mane Extract</h1>
 
-            <p>Prioritize your well-being with our range of health products 
-              designed to support your physical and mental wellness. 
-              From tonics to to salves to dietary supplements, 
-              we offer solutions to help you lead a balanced and healthy lifestyle. 
-              Discover the tools you need to nurture your body and mind.</p>
+            <p>Hericium erinaceus, commonly known as the lion's mane mushroom, 
+              yamabushitake, bearded tooth fungus, bearded hedgehog, or old man's beard,
+              is an edible mushroom belonging to the tooth fungus group.</p>
+              <p>Recommended serving size 50 mg</p>
           </div>
         </div>
-
-        <div class="square">
-          <div class="square-text-wrapper">
-              <h1>Tantra</h1>
-  
-              <p>Experience the transformative power of Tantra 
-                with our collection of resources and products dedicated to spiritual growth and intimacy. 
-                Explore ancient wisdom and modern practices to deepen your connection with yourself 
-                and your partner. Embrace Tantra as a path to greater love, consciousness, and fulfillment.</p>
-
-          </div>
-          <div class="img-wrapper">
-            <img src="images/squares/Tantra.png" alt="tantra">
-          </div>          
-        </div>
-
-        <div class="square">
-          <div class="img-wrapper">
-            <img src="images/squares/Consult.jpg" alt="fun">
-          </div>          
-          <div class="square-text-wrapper">
-              <h1>General Consultations</h1>
-  <p>Gain valuable insights and guidance with our general consulting services. 
-    Our team of experts is here to help you navigate challenges, 
-    seize opportunities, and achieve your goals. 
-    Whether you're a business owner, entrepreneur, or individual seeking personal development, 
-    our consulting services provide tailored solutions to drive success and growth.</p>
-          </div>
-        </div>
-
       </div>
     </div>
+    
 
-      </div>
-    </div>
 
     <div class="footer-wrapper">
       <div class="logo">
          <img src="images/logos/AI1/QualityProductsLLC.jpg" alt="Logo">
       </div>
-
-      <div class="contact-hours-footer">
-        <span class="contact">
-            <i class="fas fa-phone-volume"></i>(719)244-6872
-        </span>
-
-        <span class="time">
-          <i class="fas fa-clock"></i>11AM - 6PM
-        </span>
-        <br>
-        <span class="contact">
-            <i class="fas fa-envelope"></i> AQualityProduct@Gmail.COM
-        </span>
-        <br>
-        <span align="middle">
-            <i class="fas fa-map-marker-alt"></i>   Cherry Creek, 80246
-        </span>
-    </div>
 
       <div class="links-wrapper">
           <div class="nav-link">
@@ -209,6 +236,26 @@
           <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
     -->
+    <div class="contact-hours-footer">
+      <span class="contact">
+          <i class="fas fa-phone-volume"></i>(719)244-6872
+      </span>
+
+      <span class="time">
+        <i class="fas fa-clock"></i>11AM - 6PM
+      </span>
+      <br>
+      <span class="contact">
+          <i class="fas fa-envelope"></i> AQualityProduct@Gmail.COM
+      </span>
+      <br>
+      <span align="middle">
+          <i class="fas fa-map-marker-alt"></i>   Cherry Creek, 80246
+      </span>
+  </div>
+<br>
+<!--<div class="spacer60"></div>-->
+
       <div class="copyright">
           &copy; 2024 TeeDuhb &#124; All rights reserved
       </div>
