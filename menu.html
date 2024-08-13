@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-                <!--favicon?-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&family=Trade+Winds&family=Workbench&display=swap" rel="stylesheet">
+    <!--FavIcon-->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-                <!--icons-->
+    <!--Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
      crossorigin="anonymous">
-                <!--style guides-->
+    <!--StyleSheets-->
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/nav.css">    
     <link rel="stylesheet" href="styles/footer.css">
@@ -25,9 +25,13 @@
     <link rel="stylesheet" href="styles/helpers.css">
     <link rel="stylesheet" href="styles/media-queries.css">
 </head>
+<div class="popup" onclick="myFunction()"><!--<p>Click me!</p>-->
+<span class="popuptext" id="myPopup">Popup text...</span>
+</div>
 <body>
     <div class="skewed-header">
-        <div class="header-bg" style="background-image: url('kimages/cordyceps2.jpg');"></div>
+        <div class="header-bg" style="background-image: url('images/Headers/Services3.png');"></div>
+
         <div class="skewed-header-wrapper">
             <div class="skewed-header-content">
               <div class="heading-wrapper">
@@ -37,9 +41,11 @@
                     <div class="nav-link">
                       <a href="index.html">Home</a>
                     </div>
+<!--
                     <div class="nav-link">
                       <a href="menu.html">Services</a>
                     </div>
+-->
                     <div class="nav-link">
                       <a href="contact.html">Contact</a>
                     </div>
@@ -48,16 +54,63 @@
         </div>
       <!--<img src="kimages/Bearshead.jpg" width="93%" align="right" alt="flair">-->
     </div>
-  <br>
-  <div class="page-container">
-      <div class="content-wrappery">
-        <!-- IMG goes here -->
-        <!--
-          <img src="images/people/About.jpg" alt="Featured Chef" id="chef" width="100%">
-        -->
+    <div class="page-container">
+      <h1 align="center">Love is always first</h1>
+      <h2 align="center"><b>Conscious services for the conscious mind</b></h2> <br>
+
+      <div class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="square-text-wrapper">
+              <h1>Music</h1>
+  
+              <p>Immerse yourself in the world of rhythm and melody with our curated selection of music. 
+                We do production, lyrics, features, instruments, and accessories. 
+                Whether you're a seasoned musician or just starting your musical journey, 
+                we have everything you need to express yourself through music.</p>
+            </div>
+            <div class="img-wrapper">
+              <img src="images/squares/Tar.jpg" alt="music">
+            </div>          
+          </div>
+  
+      <div class="squares-wrapper">
+        <div class="squares">
+          <div class="square">
+            <div class="img-wrapper">
+              <img src="images/squares/Bearshead.jpg" alt="health">
+            </div>          
+            <div class="square-text-wrapper">
+              <h1>Health</h1>
+  
+              <p>Prioritize your well-being with our range of health products 
+                designed to support your physical and mental wellness. 
+                From tonics to to salves to dietary supplements, 
+                we offer solutions to help you lead a balanced and healthy lifestyle. 
+                Discover the tools you need to nurture your body and mind.</p>
+            </div>
+          </div>
+  
+          <div class="square">
+            <div class="square-text-wrapper">
+                <h1>Tantra</h1>
+    
+                <p>Experience the transformative power of Tantra 
+                  with our collection of resources and products dedicated to spiritual growth and intimacy. 
+                  Explore ancient wisdom and modern practices to deepen your connection with yourself 
+                  and your partner. Embrace Tantra as a path to greater love, consciousness, and fulfillment.</p>
+  
+            </div>
+            <div class="img-wrapper">
+              <img src="images/squares/Tantra.png" alt="tantra">
+            </div>          
+          </div>  
+        </div>
+      </div>
+      
+      <div class="content-wrapper">
         <br>
-        <h1 align="center">Love always comes first!</h1>
-         <h2 align="center"><b>Discover top-quality products for every aspect of your life.</b></h2> <br>
+         <h2 align="center"><b>Some words from our AI</b></h2>
           <p align="center">At Quality Products LLC, 
           we're dedicated to delivering interconnected solutions that exceed expectations. 
           </p>
@@ -90,90 +143,19 @@
                   and experience the superior quality and service that sets us apart.
                   </p>
         <p align="center"> Thank you for choosing Quality Products LLC. We look forward to serving you!</p>
-      <br>
+      <br>      </div>
       </div>
     </div>
-    <div class="spacer60"></div>
     <div class="squares-wrapper">
       <div class="squares">
-        <div class="square">
-          <div class="square-text-wrapper">
-            <h1>Music</h1>
-            <p>Immerse yourself in the world of rhythm and melody with our curated selection of music. 
-              We do production, lyrics, features, instruments, and accessories. 
-              Whether you're a seasoned musician or just starting your musical journey, 
-              we have everything you need to express yourself through music.</p>
-          </div>
-          <div class="img-wrapper">
-            <img src="kimages/Tar.jpg" alt="music">
-          </div>          
-        </div>
-        <div class="squares-wrapper">
-          <div class="squares">
-            <div class="square">
-              <div class="img-wrapper">
-                <img src="kimages/Bearshead.jpg" alt="health">
-              </div>          
-              <div class="square-text-wrapper">
-                <h1>Health</h1>
-                <p>Prioritize your well-being with our range of health products 
-              designed to support your physical and mental wellness. 
-              From tonics to to salves to dietary supplements, 
-              we offer solutions to help you lead a balanced and healthy lifestyle. 
-              Discover the tools you need to nurture your body and mind.</p>
-              </div>
-            </div>
-            <div class="square">
-              <div class="square-text-wrapper">
-                <h1>Tantra</h1>
-                <p>Experience the transformative power of Tantra 
-                with our collection of resources and products dedicated to spiritual growth and intimacy. 
-                Explore ancient wisdom and modern practices to deepen your connection with yourself 
-                and your partner. Embrace Tantra as a path to greater love, consciousness, and fulfillment.</p>
-              </div>
-              <div class="img-wrapper">
-                <img src="kimages/Tantra.png" alt="tantra">
-              </div>          
-            </div>
-            <div class="square">
-              <div class="img-wrapper">
-                <img src="kimages/Gen.png" alt="fun">
-              </div>          
-              <div class="square-text-wrapper">
-                <h1>General Consultations</h1>
-                <p>Gain valuable insights and guidance with our general consulting services. 
-              Our team of experts is here to help you navigate challenges, 
-              seize opportunities, and achieve your goals. 
-              Whether you're a business owner, entrepreneur, or individual seeking personal development, 
-              our consulting services provide tailored solutions to drive success and growth.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
+ 
     <div class="footer-wrapper">
       <div class="logo">
-         <img src="kimages/logos/AI1/QualityProductsLLC.jpg" alt="Logo">
+        <a href="products.html" accesskey="p"><img src="images/Homepage/QualityProductsLLC.jpg" alt="Logo/Menu" ></a>
       </div>
-
-      <div class="contact-hours-footer">
-        <span class="contact">
-            <i class="fas fa-phone-volume"></i>(719)244-6872
-        </span>
-
-        <span class="time">
-          <i class="fas fa-clock"></i>11AM - 6PM
-        </span>
-        <br>
-        <span class="contact">
-            <i class="fas fa-envelope"></i> AQualityProduct@Gmail.COM
-        </span>
-        <br>
-        <span align="middle">
-            <i class="fas fa-map-marker-alt"></i>   Cherry Creek, 80246
-        </span>
-    </div>
 
       <div class="links-wrapper">
           <div class="nav-link">
@@ -181,7 +163,7 @@
           </div>
 
           <div class="nav-link">
-              <a href="menu.html">Services</a>
+              <a href="products.html">Products</a>
           </div>
 
           <div class="nav-link">
@@ -199,6 +181,26 @@
           <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
     -->
+    <div class="contact-hours-footer">
+      <span class="contact">
+          <i class="fas fa-phone-volume"></i>(719)244-6872
+      </span>
+
+      <span class="time">
+        <i class="fas fa-clock"></i>11AM - 6PM
+      </span>
+      <br>
+      <span class="contact">
+          <i class="fas fa-envelope"></i> AQualityProduct@Gmail.COM
+      </span>
+      <br>
+      <span align="middle">
+          <i class="fas fa-map-marker-alt"></i>   Cherry Creek, 80246
+      </span>
+  </div>
+<br>
+<!--<div class="spacer60"></div>-->
+
       <div class="copyright">
           &copy; 2024 TeeDuhb &#124; All rights reserved
       </div>
