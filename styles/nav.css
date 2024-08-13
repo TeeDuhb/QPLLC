@@ -1,7 +1,7 @@
 /* Common nav styles */
 .navigation-wrapper {
     height: 190px;
-    background-color: #1F618D ;
+    background-color: black ;
     color: #27AE60;
     /* flexbox container */
     display: flex;
@@ -58,7 +58,7 @@
 .navigation-wrapper > .center-column > .banner-image img {
     width: 216px;
     height: 100%;
-    border-radius: 27%;
+    border-radius: 7%;
 }
 
 .links-wrapper {
