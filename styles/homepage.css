@@ -30,8 +30,8 @@
 
 /* Features section styles */
 .features-section {
-    height: 375px;
-    background-image: url(../images/Homepage/mush-bg.jpg);
+    height: 600px;
+    background-image: url(../images/Mush/mini/APE.jpg);
     background-color: #1F618D;
     border-top: 10px solid white;
     color: #11122b;
@@ -59,7 +59,7 @@
 }
 
 .features-section > .columns-wrapper > .column:hover {
-    border-bottom: 5px solid #1F618D;
+    border-bottom: 5px solid black;
 }
 
 .features-section > .columns-wrapper > .column :nth-child(1) {
