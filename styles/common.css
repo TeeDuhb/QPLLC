@@ -3,7 +3,7 @@ body {
     margin: 0px;
     font-family: 'Trade Winds', sans-serif;
     color: #1F618D;
-    background-color: orangered;
+    background-image: radial-gradient(orangered, #FFD300 , #27AE60);
 }
 
 h1 {

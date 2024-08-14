@@ -1,11 +1,8 @@
 /* Common nav styles */
 .navigation-wrapper {
     height: 190px;
-<<<<<<< HEAD
     background-color: black ;
-=======
     background-image: radial-gradient(orangered, #FFD300 , #27AE60);
->>>>>>> 588756a2ab76950cbfed3ae7d86758d1a513ee67
     color: #27AE60;
     /* flexbox container */
     display: flex;

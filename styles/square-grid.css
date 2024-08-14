@@ -27,11 +27,8 @@
     width: 100%;
     height: 424px;
     object-fit: cover;
-<<<<<<< HEAD
     margin-bottom: -1px;
-=======
     border-radius: 25%;
->>>>>>> 588756a2ab76950cbfed3ae7d86758d1a513ee67
 }
 
 .square > .square-text-wrapper {
