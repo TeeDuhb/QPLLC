@@ -8,3 +8,22 @@ function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+/* Age Verification Pop Up */
+
+overAge = function () {
+
+  $('#age-verify').addClass('hidden');
+
+}
+
+underAge = function () {
+
+  $('#age-verify').addClass('under');
+
+}
+
+goBack = function () {
+
+    window.history.back();
+
+}

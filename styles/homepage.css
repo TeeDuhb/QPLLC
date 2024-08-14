@@ -2,7 +2,7 @@
 .hero-section {
     background-image: url(../images/Homepage/hero.png);
     padding: 100px;
-    height: 300px;
+    height: 450px;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 
 /* Features section styles */
 .features-section {
-    height: 375px;
+    height: 450px;
     background-image: url(../images/Homepage/mush-bg.jpg);
     background-color: #1F618D;
     border-top: 10px solid white;
@@ -80,3 +80,421 @@
 .features-section > .columns-wrapper > .column :nth-child(3) {
     letter-spacing: 2px;
 }
+
+/* Age Verification Pop Up */
+/*
+$font-stack: 'Source Sans Pro', sans-serif;
+
+$transition: 500ms;
+
+$window-width: 400px;
+
+$window-height: 250px;
+
+$button-color: #ED6A5A;
+
+#age-verify {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: rgba(#000, 0.6);
+
+  transition: $transition;
+
+  .window {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    width: $window-width;
+
+    height: $window-height;
+
+    overflow: hidden;
+
+    padding: 40px;
+
+    margin-left: -($window-width/2);
+
+    margin-top: -($window-height/2);
+
+    background-color: #fff;
+
+    border:6px solid $button-color;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 20px 60px rgba(#000,0.2);
+
+    transition: $transition;
+
+    span {
+
+        display: block;
+  
+        text-align: center;
+  
+        margin-bottom: 10px;
+  
+        font-family: $font-stack;
+  
+        &.title {
+  
+          color: $button-color;
+  
+          font-size: 24px;
+  
+        }
+  
+      }
+
+      button {
+
+        border: 0;
+  
+        margin: 0;
+  
+        padding: 0;
+  
+        width:48%;
+  
+        height:60px;
+  
+        color:#FFF;
+  
+        font-size: 18px;
+  
+        background-color: $button-color;
+  
+        margin-top:20px;
+  
+        font-family: $font-stack;
+  
+        transform:scale(1);
+  
+        transition: .2s;
+
+        &.back {
+
+            display:block;
+    
+            float:none;
+    
+            margin:auto;
+    
+            background-color: #fff;
+    
+            color:$button-color !important;
+    
+            margin-top:20px;
+    
+          }
+    
+          &.yes {
+    
+            float:left;
+    
+          }
+    
+          &.no {
+    
+            float:right;
+    
+          }
+
+          &:hover {
+
+            transform:scale(1.1);
+    
+            box-shadow: 0 20px 60px rgba(#000,0.2);
+    
+            background-color: lighten($button-color,10%);
+    
+          }
+    
+        }
+
+        
+Use Cases & Tools
+How to Add Free Age Verification to a Website in a Few Minutes
+27 July
+today
+~ 9 min read
+6
+31291 views
+rate it
+
+
+
+
+
+Claspo  Blog  How to Add Free Age Verification to a Website in a Few Minutes
+Website age verification helps you comply with age restrictions and regulations regarding sensitive content or products in most countries. Whether you're running an online store for alcohol, tobacco, or adult-oriented material or simply want to protect minors from accessing inappropriate content, implementing age verification on your website is crucial. It can save your business and reputation. 
+
+In this article, we will explain the different types of age verification pop-ups and share information about how to add age verification pop-ups to websites, with and without coding knowledge. Let’s get started.
+
+Make Your Free Age Verification Pop-Up With Claspo
+Start Now
+What is Age Verification For a Website?
+An age verification popup is a full-screen widget that blocks access to content upon entry. It requires visitors to verify they are legally old enough to gain access.
+
+Friday_Night
+Try this template
+
+The main reason for using website age verification pop-ups is to prevent children from accessing content or purchasing products meant for adults. You must comply with laws and regulations introduced by legal institutions within your region. By requiring users to confirm their age before accessing such content, you create a safer and more responsible online environment.
+
+Smoky_Passion
+Try this template
+
+How to Add Age Verification to a Website
+There are two primary ways of adding an age verification pop-up to a website. One requires a grasp of coding, while the other uses Claspo’s templates and creates a pop-up in 5 minutes with no design or coding skills.
+
+Way 1. Code-based method
+This approach requires you to paste your code directly into your website. It’s not that big of a deal when you know programming and understand the basics. However, if you lack these skills, this will be a massive pain in your backside, especially if you plan on customizing the widget to your branding, unique needs, etc. Expect to either spend a lot of time getting everything to work right or hire a developer to help you implement this relatively simple feature.
+
+Let’s look at sample HTML, CSS, and JavaScript codes in case you decide to go the manual route.
+
+1. Free age verification HTML code
+Free age-verification HTML code examples are readily available in online communities for testers and discussion forums for programmers. Here is a small sample we came up with:
+
+<div id="age-verify">
+
+<div class="window">
+
+  <span class="title">Are you over 18?</span>
+
+  <span>To visit our website, you must be of legal drinking age.</span>
+
+  <button class="yes" onclick="overAge()">Yes</button>
+
+  <button class="no" onclick="underAge()">No</button>
+
+  <div class="underBox">
+
+    <span class="title">Sorry!</span>
+
+    <span>You need to be at least 18 to visit our website.</span>
+
+    <button class="back" onclick="goBack()">Go Back</button>
+
+  </div>
+
+<span>
+
+</div>
+
+</div>
+2. Free age verification for CSS Part
+The free CSS age verification sample code will look something like this:
+
+$font-stack: 'Source Sans Pro', sans-serif;
+
+$transition: 500ms;
+
+$window-width: 400px;
+
+$window-height: 250px;
+
+$button-color: #ED6A5A;
+
+#age-verify {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  bottom: 0;
+
+  background-color: rgba(#000, 0.6);
+
+  transition: $transition;
+
+  .window {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    width: $window-width;
+
+    height: $window-height;
+
+    overflow: hidden;
+
+    padding: 40px;
+
+    margin-left: -($window-width/2);
+
+    margin-top: -($window-height/2);
+
+    background-color: #fff;
+
+    border:6px solid $button-color;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 20px 60px rgba(#000,0.2);
+
+    transition: $transition;
+
+    span {
+
+      display: block;
+
+      text-align: center;
+
+      margin-bottom: 10px;
+
+      font-family: $font-stack;
+
+      &.title {
+
+        color: $button-color;
+
+        font-size: 24px;
+
+      }
+
+    }
+
+    button {
+
+      border: 0;
+
+      margin: 0;
+
+      padding: 0;
+
+      width:48%;
+
+      height:60px;
+
+      color:#FFF;
+
+      font-size: 18px;
+
+      background-color: $button-color;
+
+      margin-top:20px;
+
+      font-family: $font-stack;
+
+      transform:scale(1);
+
+      transition: .2s;
+
+      &.back {
+
+        display:block;
+
+        float:none;
+
+        margin:auto;
+
+        background-color: #fff;
+
+        color:$button-color !important;
+
+        margin-top:20px;
+
+      }
+
+      &.yes {
+
+        float:left;
+
+      }
+
+      &.no {
+
+        float:right;
+
+      }
+
+      &:hover {
+
+        transform:scale(1.1);
+
+        box-shadow: 0 20px 60px rgba(#000,0.2);
+
+        background-color: lighten($button-color,10%);
+
+      }
+
+    }
+
+    .underBox {
+
+      position:absolute;
+
+      width: $window-width;
+
+      height: $window-height;
+
+      padding: 40px;
+
+      top:100%;
+
+      left:0;
+
+      right:0;
+
+      background-color: $button-color;
+
+      transition: $transition;
+
+      box-sizing:border-box;
+
+      * {
+
+        color:#FFF !important;
+
+      }
+
+    }
+
+  }
+
+  &.hidden {
+
+    opacity:0;
+
+    visibility: hidden;
+
+    .window {
+
+      transform:scale(0.5);
+
+    }
+
+  }
+
+  &.under {
+
+    .window .underBox {
+
+      top:0%;
+
+    }
+
+  }
+
+}
+  */ 
