@@ -12,21 +12,26 @@
 .squares-wrapper> .squares > .square {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: -4px;
+    margin-top: 0px;
+    margin-bottom: -4px;
 }
 
 .squares-wrapper> .squares > .squarey {
     background-color: #FFD300;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: -4px;
+    margin-top: 0px;
 }
 
 .square > .img-wrapper img {
     width: 100%;
-    height: 420px;
+    height: 424px;
     object-fit: cover;
+<<<<<<< HEAD
+    margin-bottom: -1px;
+=======
     border-radius: 25%;
+>>>>>>> 588756a2ab76950cbfed3ae7d86758d1a513ee67
 }
 
 .square > .square-text-wrapper {
@@ -42,10 +47,17 @@
     color: #1F618D ;
 }
 
+.square > .square-text-wrapper p {
+    color: #1F618D ;
+    font-size: larger;
+}
+
 .squarey > .img-wrapper img {
     width: 100%;
     height: 420px;
     object-fit: cover;
+    margin-top: 5px;
+
 }
 
 .squarey > .square-text-wrapper {
@@ -59,4 +71,9 @@
 
 .squarey > .square-text-wrapper h1 {
     color: #1F618D ;
+}
+
+.squarey > .square-text-wrapper p {
+    color: #1F618D ;
+    font-size: larger;
 }

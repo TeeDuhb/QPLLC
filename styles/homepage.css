@@ -30,8 +30,13 @@
 
 /* Features section styles */
 .features-section {
+<<<<<<< HEAD
     height: 450px;
     background-image: url(../images/Homepage/mush-bg.jpg);
+=======
+    height: 600px;
+    background-image: url(../images/Mush/mini/APE.jpg);
+>>>>>>> 11e24541ce3d1d3f455de58895886f8dcae56595
     background-color: #1F618D;
     border-top: 10px solid white;
     color: #11122b;
@@ -59,7 +64,7 @@
 }
 
 .features-section > .columns-wrapper > .column:hover {
-    border-bottom: 5px solid #1F618D;
+    border-bottom: 5px solid black;
 }
 
 .features-section > .columns-wrapper > .column :nth-child(1) {
