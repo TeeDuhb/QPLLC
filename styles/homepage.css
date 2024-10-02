@@ -13,7 +13,7 @@
     background-image: radial-gradient(black, #1F618D);
     color: #cbcbcb;
     width: 420px;
-    border-radius: 100%;
+    border-radius: 23%;
     padding: 1px 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@
     padding: 1px 20px;
     margin-top: 15px;
     width: 151px;
-    border-radius: 100%;
+    border-radius: 23%;
     text-align: center;
 }
 

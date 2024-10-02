@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-family: 'Rubik Glitch Pop', serif;
+    font-family: "Bungee Spice", serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -27,3 +27,9 @@ h2, h3, h4, h5, h6 {
     padding: 10px 25px;
     font-size: large;
 }
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

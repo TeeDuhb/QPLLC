@@ -31,3 +31,10 @@
 .page-container{
     background-color: black;
 }
+
+.form{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
