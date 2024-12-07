@@ -10,7 +10,7 @@
 }
 
 .anchor-link {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .anchor-link:focus {

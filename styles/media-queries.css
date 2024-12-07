@@ -53,7 +53,7 @@
     }
 
     .skewed-header > .header-bg {
-        background-size: 550px;
+        background-size: 100%;
     }
 
     .page-container {

@@ -14,6 +14,9 @@ h2, h3, h4, h5, h6 {
     font-family: 'Workbench', serif;
 }
 
+h6 {
+    font-size: xx-large;
+}
 .content-wrapper {
     align-items: end;
 }

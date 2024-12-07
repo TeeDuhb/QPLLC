@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="uft-8" />
-    <title>Buy</title>
+    <title>Health</title>
     <!--FontStuff-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,15 +27,23 @@
     <link rel="PopUp" href="styles/Script.JS">
     <!--Javascript-->
     <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+    <script type="text/javascript">
+      jQuery(".ALBB").click(function() {
+        Payhip.Checkout.open({
+          {product: "fO2Ww"}, {product: "ZPvq5"}, {product: "9MWg7"}
+          iframeStyle: "background-color: #00FF00;"
+        });
+      });
+    </script>
 </head>
 
 <body>
   <div class="skewed-header">
-    <div class="header-bg" style="background-image: url('kimages/Headers/Services2.png');"></div>
+    <div class="header-bg" style="background-image: url('images/Headers/cart.png');"></div>
     <div class="skewed-header-wrapper">
       <div class="skewed-header-content">
         <div class="heading-wrapper">
-          <h1>Buy</h1>
+          <h1>Health</h1>
         </div>
         <div class="links-wrapper">
           <div class="nav-link">
@@ -45,9 +53,10 @@
           <div class="nav-link">
             <a href="service.html">Services</a>
           </div>
-<!--          <div class="nav-link">
-            <a href="contact.html">Contact</a>
-          </div>  -->
+          <div class="nav-link"></div>
+          <div class="nav-link">
+            <a href="cart.html">Products</a>
+          </div>
         </div>
       </div>
     </div>
@@ -60,57 +69,44 @@
       <div class="squares">
         <div class="square">
           <div class="img-wrapper">
-            <img src="kimages/squares/Products.png" alt="magic tools">
+            <img src="images/squares/Consult.jpg" alt="Guitat">
           </div>
           <div class="square-text-wrapper">
             <h1>
-              Instruments
+              General wellness consultation
             </h1>
-            <p>
-              and artistic supplies
-            </p>
+            <p>$120</p>
+            <a href="https://payhip.com/b/ZPvq5" class="payhip-buy-button" data-theme="green" data-product="#">Buy Now</a>
           </div>
         </div> 
+
         <div class="square">
           <div class="square-text-wrapper">
-            <h1>Ant Life Beanbag</h1> 
-            <p>$400</p>
+            <a href="contact.html" name="sessions" class="anchor-link">
+              <h1>Infared Therapy Sessions</h1>
+            </a>
+            <p>Promoting cell growth
+              <br>Antiwrinkle, antiAging, <br>FDA Class II medical device 
+              <br>Reach out for consultation!</p>
           </div>
           <div class="img-wrapper">
-            <img src="kimages/squares/BeanBagChair.png" alt="Bean bag chair">
-          </div>          
-        </div>
-        <div class="square">
-          <div class="img-wrapper">
-            <img src="kimages/squares/Headphones.png" alt="magic tools">
-          </div>
-          <div class="square-text-wrapper">
-            <h1>HR of Studio Time</h1>
-            <p>$50 </p>
-            <a href="https://payhip.com/b/ZPvq5" class="payhip-buy-button" data-theme="green" data-product="ZPvq5">Buy Now</a>
+            <img src="images/squares/placeholder.jpg" alt="Headphones">
           </div>
         </div> 
-        <div class="square">
-          <div class="square-text-wrapper">
-            <h1>Purchase</h1>
-          </div>
-          <div class="img-wrapper">
-            <div class="payhip-embed-page" data-key="9MWg7">...</div>
-              <script type="text/javascript" src="https://payhip.com/embed-page.js?v=24u68984"></script>       
-            </div>
-          </div>
-        </div>
+
+        
       </div>
     </div>
     <div class="squares-wrapper">
       <div class="squares">
         <div class="square">
           <div class="img-wrapper">
-            <img src="kimages/squares/FertilityMask.png">
+            <img src="images/squares/fries-sq-2.jpg" alt="Mask">
           </div>
           <div class="square-text-wrapper">
-            <h1>Tribal Décor</h1>
-            <p>more coming soon</p>
+            <h1>Flower Power Eczema Serum</h1>
+            <p>$20</p>
+            <a href="https://payhip.com/b/ZPvq5" class="payhip-buy-button" data-theme="green" data-product="#">Buy Now</a>
           </div>
         </div>
       </div>
@@ -118,7 +114,7 @@
  
     <div class="footer-wrapper">
       <div class="logo">
-         <img src="kimages/logos/AI1/QualityProductsLLC.jpg" alt="Logo">
+         <img src="images/logos/AI1/QualityProductsLLC.jpg" alt="Logo">
       </div>
       <div class="links-wrapper">
         <div class="nav-link">
@@ -128,7 +124,7 @@
           <a href="service.html">Services</a>
         </div>
         <div class="nav-link">
-          <a href="contact.html">Contact</a>
+          <a href="cart.html">Products</a>
         </div>
       </div>
       
