@@ -3,7 +3,7 @@
 <head>
     <meta charset="uft-8" />
     <title>Quality Products LLC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--FontStuff-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,24 +12,30 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--favicon?-->
-   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!--icons-->
-    <script src="https://kit.fontawesome.com/fcaf4e35d0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fcaf4e35d0.js" crossorigin="anonymous"></script>    
     <!--style guides-->
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/homepage.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
+<!--Age Verification Pop Up--> 
+<!--(https://www.commoninja.com/age-verification/editor/content/15f5a065-8f9b-4094-8759-0914aa55b55a)
+<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-15f5a065-8f9b-4094-8759-0914aa55b55a"></div>-->
+
 <body>
-    <div class="navigation-wrapper">
-        
+    <div class="navigation-wrapper">        
         <div class="left-column">
             <div class="icon">
-                <i class="fas fa-phone-volume"></i>
+                <a href="tel:719-244-6872"><i class="fas fa-phone-volume"></i></a>
             </div>
             <div class="contact-hour-wrapper">
                 <div class="phone">
@@ -40,68 +46,58 @@
                 </div>
             </div>
         </div>
-        
         <div class="center-column">
             <div class="banner-image">
-                <a href="cart.html"><img src="images/logos/AI1/QualityProductsLLC.jpg" alt="Logo"></a>
+                <a href="cart.html"><img src="images/logos/AI1/QualityProductsLLC.jpg" accesskey="p" alt="Logo"></a>
             </div>
             <div class="links-wrapper">
-<!--
+                <div></div>
                 <div class="nav-link">
-                    <a href="index.html">Home</a>
+                    <a href="cart.html">Products</a>
                 </div>
-            -->
-            <div></div>
-            <div class="nav-link">
-                    <a href="service.html">Services</a>
-                </div>
-            <div></div>
 <!--                <div class="nav-link">
                     <a href="contact.html">Contact</a>
-                </div>  -->
+                </div>-->
+                <div></div>
             </div>
         </div>
-
         <div class="right-column">
             <div class="address-wrapper">
-                        Cherry Creek  <br>
+                        Cherry Creek,  <br>
                         Denver, CO 80246
             </div>
-
             <div class="contact-icon">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="contact.html"><i class="fas fa-map-marker-alt"></i></a>
             </div>
         </div>
     </div>
-
 
     <div class="hero-section">
         <div class="top-heading">
-            <h1>Book on the "Contact" page</h1>
-        </div>          
-
+            <h1>Book on the <a href="contact.html">Contact</a> page</h1>
+        </div>
         <div class="bottom-heading">
-            <h3>Site is under construction</h3>
+            <h5>Site is under construction</h5>
         </div>
     </div>
-
 
     <div class="features-section">
         <div class="columns-wrapper">
             <div class="column">
-    <i class="fas fa-briefcase-medical"></i>
-                <p>Wellness</p>
-                <p>Discover the tools you need to nurture your body and mind.</p>
-            </div>
-            <div class="column">
-    <i class="fas fa-music"></i>
+                <i class="fas fa-music"></i>
                 <p>Music</p>
                 <p>We do production, lyrics, features, instruments, and accessories.</p>
             </div>
             <div class="column">
-    <i class="fas fa-balance-scale"></i>
+                <i class="fas fa-balance-scale"></i>
                 <p>Coaching</p>
-                <p>Embrace coaching as a path to greater love, consciousness, and fulfillment.</p></div>
+                <p>Embrace coaching as a path to greater love, consciousness, and fulfillment.</p>
+            </div>
+            <div class="column">
+                <i class="fas fa-briefcase-medical"></i>
+                <p>Wellness</p>
+                <p>Discover the tools you need to nurture your body and mind.</p>
+            </div>
         </div>
     </div>
 
@@ -109,9 +105,18 @@
     
     <div class="footer-wrapper">
         <div class="logo">
-            <a href="cart.html" accesskey="p"><img src="images/Homepage/QualityProductsLLC.jpg" alt="Logo/Menu" ></a>
+            <a href="service.html" accesskey="s"><img src="images/logos/AI1/ChryCrek.jpg" alt="Logo/Menu" ></a>
         </div>
-        <br>
+        <div class="links-wrapper">
+            <div></div>
+            <div class="nav-link">
+                <a href="service.html">Services</a>
+            </div>
+            <div></div>
+<!--            <div class="nav-link">
+                <a href="contact.html">Contact</a>
+            </div>-->
+        </div>
         <div class="contact-hours-footer">
             <span class="contact">
                 <i class="fas fa-envelope"></i>AQualityProduct@Gmail.COM
@@ -121,33 +126,13 @@
                 <i class="fas fa-clock"></i> Email anytime
             </span>
         </div>
-        <div class="links-wrapper">
-<!--
-            <div class="nav-link">
-                <a href="home.html">Home</a>
-            </div>  -->
-            <div></div>
-            <div class="nav-link">
-                <a href="service.html">Services</a>
-            </div>
-            <div></div>
-<!--            <div class="nav-link">
-                <a href="contact.html">Contact</a>
-            </div>  -->
-        </div>
-
         <div class="social-wrapper">
             <a href="https://soundcloud.com/qualityproducts"><i class="fab fa-soundcloud"></i></a>
             <a href="https://www.youtube.com/@AQualityProduct"><i class="fab fa-youtube"></i></a>
-
-          </div>    
-
-        <!--<div class="social-wrapper">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-        </div>-->
-
+        </div>
+        <div class="disclaimer">
+            Coaching is for informational purposes only. Proceed at your own risk.<br>
+        </div>
         <div class="copyright">
             &copy; 2024 TeeDuhb &#124; All rights reserved
         </div>

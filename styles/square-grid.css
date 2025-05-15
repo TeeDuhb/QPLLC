@@ -28,7 +28,7 @@
     height: 420px;
     object-fit: cover;
     margin-bottom: -1px;
-    border-radius: 25%;
+    border-radius: 16%;
 }
 
 .square > .square-text-wrapper {

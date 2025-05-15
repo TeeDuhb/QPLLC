@@ -3,6 +3,7 @@
     position: relative;
     height: 400px;
     overflow: hidden;
+    text-align: center;
 }
 
 .skewed-header > .header-bg {
@@ -42,4 +43,28 @@
     width: 175px;
     padding: 10px;
     border-radius: 9%;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+    width: 69px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a:hover {
+    color: black;
+    letter-spacing: 2px;
 }

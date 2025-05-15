@@ -19,6 +19,34 @@
     border-radius: 33%;
 }
 
+.footer-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Trade Winds", sans-serif;
+    font-weight: 1000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 555px;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link {
+    width: 69px;
+    text-align: center;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .links-wrapper > .nav-link a:hover {
+    color: black;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
 .footer-wrapper > .contact-hours-footer span {
     letter-spacing: 2px;
     margin-left: 10px;
@@ -30,12 +58,6 @@
     font-size: .8em;
     color: #27AE60 ;
     text-transform: uppercase;
-}
-
-.footer-wrapper > .links-wrapper {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 400px;
 }
 
 .footer-wrapper > .social-wrapper {
@@ -54,6 +76,12 @@
 
 .footer-wrapper > .social-wrapper a:hover {
     color: #1F618D ;
+}
+
+.footer-wrapper > .disclaimer {
+    color: #27AE60 ;
+    font-size: 70%;
+    margin-bottom: 42px;
 }
 
 .footer-wrapper > .copyright {

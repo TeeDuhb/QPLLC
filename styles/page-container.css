@@ -2,6 +2,7 @@
 .page-container {
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 .page-container > .content-wrapper {

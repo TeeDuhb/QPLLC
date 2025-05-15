@@ -1,5 +1,6 @@
 /* Hero section styles */
 .hero-section {
+    border-top: 3px groove white;
     background-image: url(../images/Homepage/hero.png);
     padding: 100px;
     height: 450px;
@@ -10,10 +11,10 @@
 }
 
 .hero-section > .top-heading {
-    background-image: radial-gradient(black, #1F618D);
-    color: #cbcbcb;
-    width: 420px;
-    border-radius: 23%;
+    background-image: radial-gradient(#1F618D, black);
+    color: #CFB53B;
+    width: 300px;
+    border-radius: 23px;
     padding: 1px 20px;
     text-align: center;
 }
@@ -31,10 +32,10 @@
 /* Features section styles */
 .features-section {
     height: 450px;
-    background-image: url(../kimages/Mush/mini/APE.jpg);
+    background-image: url(../images/Homepage/Repeat.jfif);
     background-color: #1F618D;
-    border-top: 10px solid white;
-    color: #11122b;
+    border-top: 7px ridge white;
+    color: #CFB53B;
     display: flex;
     justify-content: center;
     align-items: last baseline;
