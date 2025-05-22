@@ -2,7 +2,7 @@
 .navigation-wrapper {
     height: 300px;
     background-color: #1F618D ;
-    background-image: radial-gradient(#FFD300, #A90F00);
+    background-image: radial-gradient(#FFD300, orange, #A90F00);
     color: #27AE60;
     /* flexbox container */
     display: flex;
